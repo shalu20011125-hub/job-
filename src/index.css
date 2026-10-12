@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #030712;
+    color: #f3f4f6;
+  }
+
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Neon glow utility styles */
+.neon-glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.45), 0 0 10px -2px rgba(6, 182, 212, 0.3);
+}
+
+.neon-glow-emerald {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.45), 0 0 10px -2px rgba(16, 185, 129, 0.3);
+}
+
+.neon-glow-purple {
+  box-shadow: 0 0 25px -5px rgba(168, 85, 247, 0.45), 0 0 10px -2px rgba(168, 85, 247, 0.3);
+}
+
+.neon-border-cyan {
+  border-color: rgba(6, 182, 212, 0.6);
+  box-shadow: 0 0 15px -3px rgba(6, 182, 212, 0.3);
+}
+
+/* Custom cyber scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}

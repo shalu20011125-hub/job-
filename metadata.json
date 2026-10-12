@@ -1,0 +1,6 @@
+{
+  "name": "NexusHire - Career & Job Fair Hub",
+  "description": "Full-Stack Career & Job Fair Hub Event Management System with modern dark theme, vibrant neon accents, interactive recruiter interview slot booking, and applicant tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
